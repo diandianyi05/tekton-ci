@@ -4,6 +4,7 @@ kind: PipelineRun
 metadata:
   generateName: vote-ci
 spec:
+  serviceAccountName: build-bot
   pipelineRef:
     name: instavote-ci
   podTemplate:
