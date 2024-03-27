@@ -24,7 +24,7 @@ spec:
       secretName: dockerhub-creds
   params:
   - name: repoUrl
-    value: https://github.com/diandianyi05/instavote.git
+    value: git@github.com:diandianyi05/instavote.git
   - name: revision
     value: main
   - name: sparseCheckoutDirectories
